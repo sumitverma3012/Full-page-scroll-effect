@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y proximity; */
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: start;
+}
+
+.one {
+    background-color: crimson;
+}
+
+.two {
+    background-color: deepskyblue;
+}
+
+.three {
+    background-color: cornflowerblue;
+}
+
+.four {
+    background-color: chartreuse;
+}
