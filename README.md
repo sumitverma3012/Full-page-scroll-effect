@@ -1,9 +1,13 @@
 # Full-page-scroll-effect
 
-# .parent
+[Demo](https://blissful-wozniak-73c57d.netlify.app)
+
+### `.parent`
 scroll-snap-type: y mandatory
+
 overflow-y
+
 height
 
-# .children
+### `.children`
 scroll-snap-align
